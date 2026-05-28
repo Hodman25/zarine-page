@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    scrollbar-width: none;
 }
 
 .container{
@@ -41,8 +42,9 @@
     display: flex;
     color: white;
     margin-bottom: 100px;   
-    padding: 100px 150px;
+    padding: 80px 100px;
     gap: 100px;
+    scrollbar-width: none;
 
 }
 .fea{
@@ -84,7 +86,7 @@
     width: 1200px;
     height: 600px;
     border-radius: 10px;
-    margin-left: 200px; 
+    /* margin-left: 100px;  */
     
 }
 .sawir img{
@@ -251,12 +253,12 @@
 /* footer */
 .footer{
     background-color: #7C4EE4;
-    width: 1350px;
+    width: 100%;
     height: 500px;
     color: white;
     text-align: center;
     margin-top: 100px;
-   padding: 20px 200px;
+   padding: 0px 0px;
 }
 .txt{
     padding: 80px 20px;
